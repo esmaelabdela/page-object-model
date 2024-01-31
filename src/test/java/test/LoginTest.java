@@ -19,7 +19,7 @@ public class LoginTest {
 	String dashboardHeaderValidationText =  "Dashboard";
 	String alertUserValidationText =  "Please enter your user name";
 	String alertpaswordValidationText = "Please enter your password";
-	
+	 
  
 	@Test
     public void validUserShoudBeAbleToLogin()	{

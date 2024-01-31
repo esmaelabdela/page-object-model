@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-03T12:22:47 CST" name="Default suite" finished-at="2024-01-03T12:23:01 CST" duration-ms="13616">
+  <suite started-at="2024-01-30T20:01:15 CST" name="Default suite" finished-at="2024-01-30T20:01:35 CST" duration-ms="19951">
     <groups>
     </groups>
-    <test started-at="2024-01-03T12:22:47 CST" name="Default test" finished-at="2024-01-03T12:23:01 CST" duration-ms="13616">
-      <class name="test.LoginTest">
-        <test-method signature="validUserShoudBeAbleToLogin()[pri:0, instance:test.LoginTest@f78a47e]" started-at="2024-01-03T12:22:47 CST" name="validUserShoudBeAbleToLogin" finished-at="2024-01-03T12:23:01 CST" duration-ms="13541" status="PASS">
+    <test started-at="2024-01-30T20:01:15 CST" name="Default test" finished-at="2024-01-30T20:01:35 CST" duration-ms="19951">
+      <class name="test.AddCustomerTest">
+        <test-method signature="userShouldBeAbleToAddNewCustomer()[pri:0, instance:test.AddCustomerTest@f78a47e]" started-at="2024-01-30T20:01:15 CST" name="userShouldBeAbleToAddNewCustomer" finished-at="2024-01-30T20:01:35 CST" duration-ms="19835" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validUserShoudBeAbleToLogin -->
-      </class> <!-- test.LoginTest -->
+        </test-method> <!-- userShouldBeAbleToAddNewCustomer -->
+      </class> <!-- test.AddCustomerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

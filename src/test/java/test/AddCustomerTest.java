@@ -25,7 +25,7 @@ public class AddCustomerTest {
 	String   addCustomerHeaderText = "New Customer";
 	String   fullName = "Sitra yeshaw";
     String   email = "demo@codefios.com";
-	String 	 phoneNumber = "9363548";
+	String 	 phone = "9363548";
 	String 	 address = "3551 wilshire Elementary";
 	String 	 city = "Richardson";
 	String   zipCode = "75082";
@@ -34,7 +34,7 @@ public class AddCustomerTest {
 	String 	 groupName = "Selenium";   
 	
 	@Test
-    public void userShouldBeAbleToAddNewCustomer() {
+    public void userShouldBeAbleToAddNewCustomer() { 
 	  
 	 driver =  BrowserFactory.init(); 
 	  
@@ -53,6 +53,13 @@ public class AddCustomerTest {
 	 addCustomerPage.insertFullName(fullName);
 	 addCustomerPage.insertEmail(email);
 	 addCustomerPage.selectCompanyName(companyName);
+	 addCustomerPage.insertPhone(phone);
+	 addCustomerPage.insertAddress(address);
+	 addCustomerPage.insertCity(city);
+	 addCustomerPage.insertZipCode(zipCode);
+	 addCustomerPage.insertCountryName(countryName);
+	 addCustomerPage.insertGroupName(groupName);
+	// addCustomerPage.clickSaveButton();
 	 
 	 
   }
